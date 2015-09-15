@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C73D22FE1BA800EC00477774 /* KGHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C73D22FD1BA800EC00477774 /* KGHomePageViewController.m */; };
+		C73D23001BA809BC00477774 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C73D22FF1BA809BC00477774 /* Info.plist */; };
 		C79FBD4C1BA7B1B600FBB45B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C79FBD4B1BA7B1B600FBB45B /* main.m */; };
 		C79FBD4F1BA7B1B600FBB45B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C79FBD4E1BA7B1B600FBB45B /* AppDelegate.m */; };
 		C79FBD521BA7B1B600FBB45B /* KGKuGouPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C79FBD501BA7B1B600FBB45B /* KGKuGouPlayer.xcdatamodeld */; };
@@ -14,6 +16,9 @@
 		C79FBD5A1BA7B1B600FBB45B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79FBD591BA7B1B600FBB45B /* Images.xcassets */; };
 		C79FBD5D1BA7B1B600FBB45B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C79FBD5B1BA7B1B600FBB45B /* LaunchScreen.xib */; };
 		C79FBD691BA7B1B600FBB45B /* KGKuGouPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C79FBD681BA7B1B600FBB45B /* KGKuGouPlayerTests.m */; };
+		C79FBD781BA7C52C00FBB45B /* LocolMusicList.plist in Resources */ = {isa = PBXBuildFile; fileRef = C79FBD771BA7C52C00FBB45B /* LocolMusicList.plist */; };
+		C79FBD7A1BA7C54E00FBB45B /* mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C79FBD791BA7C54E00FBB45B /* mp3 */; };
+		C79FBD7E1BA7C6FD00FBB45B /* KGWelcomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C79FBD7D1BA7C6FD00FBB45B /* KGWelcomePageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C73D22FC1BA800EC00477774 /* KGHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGHomePageViewController.h; sourceTree = "<group>"; };
+		C73D22FD1BA800EC00477774 /* KGHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGHomePageViewController.m; sourceTree = "<group>"; };
+		C73D22FF1BA809BC00477774 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C79FBD461BA7B1B600FBB45B /* KGKuGouPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KGKuGouPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79FBD4A1BA7B1B600FBB45B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C79FBD4B1BA7B1B600FBB45B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,8 +45,11 @@
 		C79FBD591BA7B1B600FBB45B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C79FBD5C1BA7B1B600FBB45B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C79FBD621BA7B1B600FBB45B /* KGKuGouPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KGKuGouPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C79FBD671BA7B1B600FBB45B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C79FBD681BA7B1B600FBB45B /* KGKuGouPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGKuGouPlayerTests.m; sourceTree = "<group>"; };
+		C79FBD771BA7C52C00FBB45B /* LocolMusicList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LocolMusicList.plist; sourceTree = "<group>"; };
+		C79FBD791BA7C54E00FBB45B /* mp3 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mp3; sourceTree = "<group>"; };
+		C79FBD7C1BA7C6FD00FBB45B /* KGWelcomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGWelcomePageViewController.h; sourceTree = "<group>"; };
+		C79FBD7D1BA7C6FD00FBB45B /* KGWelcomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGWelcomePageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +70,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C73D22FB1BA800BA00477774 /* 主页 */ = {
+			isa = PBXGroup;
+			children = (
+				C73D22FC1BA800EC00477774 /* KGHomePageViewController.h */,
+				C73D22FD1BA800EC00477774 /* KGHomePageViewController.m */,
+			);
+			name = "主页";
+			sourceTree = "<group>";
+		};
 		C79FBD3D1BA7B1B500FBB45B = {
 			isa = PBXGroup;
 			children = (
@@ -114,7 +134,9 @@
 		C79FBD661BA7B1B600FBB45B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C79FBD671BA7B1B600FBB45B /* Info.plist */,
+				C73D22FF1BA809BC00477774 /* Info.plist */,
+				C79FBD791BA7C54E00FBB45B /* mp3 */,
+				C79FBD771BA7C52C00FBB45B /* LocolMusicList.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -136,6 +158,8 @@
 		C79FBD751BA7B3DA00FBB45B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C73D22FB1BA800BA00477774 /* 主页 */,
+				C79FBD7B1BA7C6BA00FBB45B /* 欢迎界面 */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -147,6 +171,15 @@
 				C79FBD4E1BA7B1B600FBB45B /* AppDelegate.m */,
 			);
 			name = Others;
+			sourceTree = "<group>";
+		};
+		C79FBD7B1BA7C6BA00FBB45B /* 欢迎界面 */ = {
+			isa = PBXGroup;
+			children = (
+				C79FBD7C1BA7C6FD00FBB45B /* KGWelcomePageViewController.h */,
+				C79FBD7D1BA7C6FD00FBB45B /* KGWelcomePageViewController.m */,
+			);
+			name = "欢迎界面";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +272,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C79FBD781BA7C52C00FBB45B /* LocolMusicList.plist in Resources */,
+				C79FBD7A1BA7C54E00FBB45B /* mp3 in Resources */,
+				C73D23001BA809BC00477774 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C79FBD4F1BA7B1B600FBB45B /* AppDelegate.m in Sources */,
+				C73D22FE1BA800EC00477774 /* KGHomePageViewController.m in Sources */,
 				C79FBD4C1BA7B1B600FBB45B /* main.m in Sources */,
+				C79FBD7E1BA7C6FD00FBB45B /* KGWelcomePageViewController.m in Sources */,
 				C79FBD521BA7B1B600FBB45B /* KGKuGouPlayer.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +484,7 @@
 				C79FBD6E1BA7B1B600FBB45B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C79FBD6F1BA7B1B600FBB45B /* Build configuration list for PBXNativeTarget "KGKuGouPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +493,7 @@
 				C79FBD711BA7B1B600FBB45B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
